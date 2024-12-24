@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+#backGround {
+	background-color: #faf3d6;
+	background-image: url(../image/background.jpg);
+	
+}
+#DIVbody{
+	width: 1174px;
+	height: 655px;
+	float: left;
+	
+}
+
+#DIVtop {
+	background-image: url(../image/top1.png);
+	width: 743px;
+	height: 102px;
+	margin-top: 20px;
+	margin-left: 430px;
+	transform: scale(0.7);
+	transform-origin: center;
+}
+#icon1{
+	background-image: url(../image/steam.png);
+	margin-top: 0px;
+	width: 109px;
+	height: 109px;
+	transform: scale(0.7);
+	transform-origin: center;
+
+}
+#icon1_text_1{
+	margin-left: 50px;
+	margin-top: -87px;
+	width: 329px;
+	height: 62px;
+	background-image: url(../image/steam_text.png);
+	transform: scale(0.7);
+	transform-origin: center;
+
+}
+#textpage_1{
+	background-image: url(../image/text.png);
+	width: 434px;
+	height: 404px;
+	transform: scale(0.7);
+	transform-origin: center;
+	margin-left: -40px;
+	margin-top: -40px;
+	
+}
+font1{
+	font-family: "云烟体";
+	font-size: 30px;
+	text-align: center;
+}
