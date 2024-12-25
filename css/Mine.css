@@ -10,45 +10,68 @@
 	width: 1174px;
 	height: 655px;
 	float: left;
-	
+	position: absolute;
 }
 
 #DIVtop {
-	background-image: url(../image/top1.png);
-	width: 743px;
-	height: 102px;
+	background-image: url(../image/backtop.png);
+	width: 555px;
+	height: 78px;
+	position: absolute;
 	margin-top: 20px;
-	margin-left: 430px;
-	transform: scale(0.7);
-	transform-origin: center;
+	margin-left: 530px;
+	
+	text-align: center;
 }
+topfont{
+	position: relative;
+	width: max-contect;
+	font-family: "云烟体";
+	font-size: 50px;
+	color: #ffcc33;
+	-webkit-text-stroke: 0.5px rgb(43,46,46);
+}
+topfont::after{
+	content: '';
+	background: #ffcc33;
+	border-radius: 100px; 
+	width: 0px;
+	height: 4px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	transition: 100ms;
+}
+topfont:hover::after{
+	width: 100%;
+	
+}
+
 #icon1{
+	position: static;
 	background-image: url(../image/steam.png);
-	margin-top: 0px;
+	margin-top: 100px;
 	width: 109px;
 	height: 109px;
-	transform: scale(0.7);
-	transform-origin: center;
 
 }
 #icon1_text_1{
-	margin-left: 50px;
+	position:absolute; 
+	margin-left: 130px;
 	margin-top: -87px;
 	width: 329px;
 	height: 62px;
 	background-image: url(../image/steam_text.png);
-	transform: scale(0.7);
-	transform-origin: center;
+	
 
 }
 #textpage_1{
+	position: absolute;
 	background-image: url(../image/text.png);
 	width: 434px;
 	height: 404px;
-	transform: scale(0.7);
-	transform-origin: center;
-	margin-left: -40px;
-	margin-top: -40px;
+	margin-left: 30px;
+	margin-top: 10px;
 	
 }
 font1{
