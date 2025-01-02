@@ -1,28 +1,26 @@
 @charset "utf-8";
 /* CSS Document */
-
-#backGround {
-	background-color: #faf3d6;
-	background-image: url(../image/background.jpg);
-	
+body{
+	background: linear-gradient(
+		to right,
+		rgb(113,65,168),
+		rgba(44,114,255,1)
+	);
 }
 #DIVbody{
 	position: absolute;
-	width: 1333px;
-	height: 747px;
-	float: left;
-	
+	left: 1%;
+	top: 30px;
+	width: 98%;
+	height: 500px;
+	background-color: rgba(255, 255, 255, 0.684);
+	border-radius: 5px;
+	box-sizing: border-box;
+	padding-top: 30px;
 }
 
 #DIVtop {
-	background-image: url(../image/backtop.png);
-	position: absolute;
-	width: 555px;
-	height: 76px;
-	top: 20px;
-	left: 530px;
 	text-align: center;
-	
 }
 topfont{
 	position: relative;
@@ -30,13 +28,14 @@ topfont{
 	width: max-contect;
 	font-family: "云烟体";
 	font-size: 50px;
-	color: #ffcc33;
+	color: #3396ff;
+	letter-spacing: 5px;
 	-webkit-text-stroke: 0.5px rgb(43,46,46);
 }
 
 topfont::after{
 	content: '';
-	background: #ffcc33;
+	background: #3396ff;
 	border-radius: 100px; 
 	width: 0px;
 	height: 4px;
@@ -51,20 +50,26 @@ topfont:hover::after{
 	
 }
 
+.c{
+	position: absolute;
+	left: 1%;
+	width: 50%;
+	height: 109px;
+	
+}
+
 #steamicon{
 	position: absolute;
-	background-image: url(../image/steam.png);
-	margin-top: 100px;
 	width: 109px;
 	height: 109px;
-
+	
 }
-#steam_titel{
+#steam_title{
 	position: absolute;
-	left: 130px;
-	top: 123px;
 	width: 329px;
 	height: 62px;
+	left: 139px;
+	top: 23.5px;
 	background-image: url(../image/backtitle.png);
 	text-align: center;
 	}
@@ -72,31 +77,14 @@ steamtitle{
 	position: relative;
 	font-family: "云烟体";
 	font-size: 45px;
-	color: #ffcc33;
+	color: #3396ff;
 	letter-spacing: 5px;
 	-webkit-text-stroke: 0.3px rgb(43,46,46);
 }
-steamtitle::before{
-	content: 'Steam';
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 0%;
-	transition: 100ms;
-}
-steamtitle:hover::before{
-	width: 100%;
-	color: #003333;
-}
 
-
-#steamtextpage{
+#steamtitlepage{
 	position: absolute;
-	background-image: url(../image/text.png);
-	width: 434px;
-	height: 404px;
-	left: 30px;
-	top: 10px;
-	
-	
+	background-color: blue;
+	width: 100px;
+	height: 100px;
 }
