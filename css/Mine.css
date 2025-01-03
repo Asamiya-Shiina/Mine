@@ -57,6 +57,18 @@ topfont:hover::after{
 	height: 109px;
 	
 }
+.a{
+	position: absolute;
+	left: 1%;
+	width: 50%;
+	height: 109px;
+	top: 218px;
+}
+#telegramicon{
+	position: absolute;
+	width: 110px;
+	height: 109px;;
+}
 
 #steamicon{
 	position: absolute;
@@ -74,6 +86,23 @@ topfont:hover::after{
 	text-align: center;
 	}
 steamtitle{
+	position: relative;
+	font-family: "云烟体";
+	font-size: 45px;
+	color: #3396ff;
+	letter-spacing: 5px;
+	-webkit-text-stroke: 0.3px rgb(43,46,46);
+}
+#telegram_title{
+	position: absolute;
+	width: 329px;
+	height: 62px;
+	left: 139px;
+	top: 23.5px;
+	background-image: url(../image/backtitle.png);
+	text-align: center;
+}
+telegramtitle{
 	position: relative;
 	font-family: "云烟体";
 	font-size: 45px;

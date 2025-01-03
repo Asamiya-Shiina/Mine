@@ -1,0 +1,75 @@
+@charset "utf-8";
+#login{
+   background-color: rgba(255, 255, 255, 0.5); 
+   width: 60%;
+   height: 300px;
+   margin-left: 20%;
+   margin-top: 50px;
+   border-radius: 5px;
+   box-sizing: border-box;
+   padding: 10px;
+}
+#logintext{
+    text-align: center;
+}
+loginfont{
+    position: relative;
+	white-space: nowrap;
+	width: max-contect;
+	font-family: "云烟体";
+	font-size: 35px;
+	color: #3396ff;
+    user-select: none;
+}
+
+loginfont::after{
+	content: '';
+	background: #3396ff;
+	border-radius: 100px; 
+	width: 0px;
+	height: 1px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	transition: 100ms;
+}
+
+loginfont:hover::after{
+	width: 100%;
+	
+}
+
+#loginform{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#form{
+    border: 1px #3396ff;
+    outline: none;
+    width: 60%;
+    height: 40px;
+    border-radius: 100px;
+    
+}
+
+#button{
+    width: 30%;
+    height: 52px;
+    border-radius: 100px;
+    background: linear-gradient(
+		to right,
+		rgb(113,65,168),
+		rgba(44,114,255,1)
+	);
+    text-align: center;
+    color: #fff;
+    line-height: 52px;
+    font-family: "云烟体";
+    font-size: 20px;
+    font-weight: 100;
+    cursor: pointer;
+    user-select: none;
+    margin-left: 35%;
+    margin-top: 30px;
+}
