@@ -73,3 +73,35 @@ loginfont:hover::after{
     margin-left: 35%;
     margin-top: 30px;
 }
+
+#tips{
+    box-sizing: border-box;
+    padding-top: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+    width: 130px;
+    height: 70px;
+    background: linear-gradient(
+		to right,
+        rgba(44, 79, 255, 0.682),
+		rgba(65, 99, 168, 0.742)
+	);
+    border-radius: 3px;
+}
+
+#close{
+    text-align: right;
+    cursor: pointer;
+    user-select: none;
+    font-size: 10px;
+}
+
+#tipstext{
+    color: #fff;
+    font-size: 15px;
+    margin-top: 4px;
+    user-select: none;
+}

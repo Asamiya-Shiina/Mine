@@ -1,5 +1,4 @@
-//我的第一次学习javaScript,嘻嘻
-console.log('偷偷打开控制台的你一定是一个电脑大神吧 ./笑');
+console.log('打开控制台找到的你一定是一个电脑大神吧 ./笑');
 
 //start!!!!!!
 alert('欢迎来到我的blog~~~');
@@ -14,14 +13,14 @@ icon1.addEventListener("mouseenter",function(){
     let id = document.createAttribute("id");
     id.value = "steam_title";
     steamtitle.setAttributeNode(id);
-    let c = document.getElementsByClassName("c")[0];
-    c.appendChild(steamtitle);                          //让div出现
+    let b = document.getElementById("b")
+    b.appendChild(steamtitle);                          //让div出现
 })
 
 //离开消失
 icon1.addEventListener("mouseleave",function(){
-    let c = document.getElementsByClassName("c")[0];
-    c.removeChild(c.lastChild);
+    let steam = document.getElementById("steam_title");
+    steam.remove();
 })
 
 //鼠标进入telegram
@@ -36,12 +35,12 @@ icon2.addEventListener("mouseenter",function(){
     let id = document.createAttribute("id");
     id.value = "telegram_title";
     telegramtitle.setAttributeNode(id);
-    let a = document.getElementsByClassName("a")[0];
-    a.appendChild(telegramtitle);                          
+    let b = document.getElementById("b");
+    b.appendChild(telegramtitle);                          
 })
 
 //鼠标离开消失
 icon2.addEventListener("mouseleave",function(){
-    let a = document.getElementsByClassName("a")[0];     ////同理消失
-    a.removeChild(a.lastChild);
+    let telegram = document.getElementById("telegram_title");
+    telegram.remove();
 })
